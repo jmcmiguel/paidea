@@ -17,7 +17,7 @@
             </template>
         </div> -->
 
-    <div class="min-h-screen bg-gray-100">
+    <div class="min-h-screen bg-[#f5f5f5]">
         <!-- Navigation Bar -->
         <navbar />
 
@@ -29,6 +29,9 @@
 
         <!-- Highlight 1 -->
         <highlight-first />
+
+        <!-- Long Feature -->
+        <long-feature />
 
         <!-- Pricing -->
         <pricing />
@@ -43,6 +46,7 @@ import Fab from "@/Pages/WelcomeKids/Fab";
 import Intro from "@/Pages/WelcomeKids/Intro";
 import HighlightFirst from "@/Pages/WelcomeKids/Highlight1";
 import Pricing from "@/Pages/WelcomeKids/Pricing";
+import LongFeature from "@/Pages/WelcomeKids/LongFeature"
 
 export default defineComponent({
     components: {
@@ -52,7 +56,8 @@ export default defineComponent({
         Fab,
         Intro,
         HighlightFirst,
-        Pricing
+        Pricing,
+        LongFeature
     },
 
     props: {
