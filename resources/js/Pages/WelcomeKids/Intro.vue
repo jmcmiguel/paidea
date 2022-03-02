@@ -18,7 +18,7 @@
                 <!-- 1on1 Tutorial Button -->
                 <div class="flex flex-col w-[80vw] p-3 mt-5 xl:h-40 xl:w-40 2xl:h-52 2xl:w-52 lg-button rounded-xl bg-[#ff8f00] hover:animate-bounce transition-500 ease-in-out">
                     <i class="material-icons !text-8xl 2xl:!text-9xl">people</i>
-                    <p class="text-sm font-bold">1-on-1 Tutorial</p>
+                    <p class="text-sm font-bold">1-on-1 kay Arjay</p>
                 </div>
                 
                 <!-- Free Demo -->
