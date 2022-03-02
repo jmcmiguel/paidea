@@ -26,6 +26,12 @@
 
         <!-- Intro Page -->
         <intro />
+
+        <!-- Highlight 1 -->
+        <highlight-first />
+
+        <!-- Pricing -->
+        <pricing />
     </div>
 </template>
 
@@ -34,7 +40,9 @@ import { defineComponent } from "vue";
 import { Head, Link } from "@inertiajs/inertia-vue3";
 import Navbar from "@/Pages/WelcomeKids/Navbar";
 import Fab from "@/Pages/WelcomeKids/Fab";
-import Intro from "@/Pages/WelcomeKids/IntroPage/index";
+import Intro from "@/Pages/WelcomeKids/Intro";
+import HighlightFirst from "@/Pages/WelcomeKids/Highlight1";
+import Pricing from "@/Pages/WelcomeKids/Pricing";
 
 export default defineComponent({
     components: {
@@ -43,6 +51,8 @@ export default defineComponent({
         Navbar,
         Fab,
         Intro,
+        HighlightFirst,
+        Pricing
     },
 
     props: {
