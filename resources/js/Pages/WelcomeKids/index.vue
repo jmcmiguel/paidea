@@ -35,6 +35,12 @@
 
         <!-- Pricing -->
         <pricing />
+
+        <!-- Get Started -->
+        <get-started />
+
+        <!-- Footer -->
+        <foot />
     </div>
 </template>
 
@@ -47,6 +53,8 @@ import Intro from "@/Pages/WelcomeKids/Intro";
 import HighlightFirst from "@/Pages/WelcomeKids/Highlight1";
 import Pricing from "@/Pages/WelcomeKids/Pricing";
 import LongFeature from "@/Pages/WelcomeKids/LongFeature"
+import GetStarted from "@/Pages/WelcomeKids/GetStarted"
+import Foot from "@/Pages/WelcomeKids/Foot"
 
 export default defineComponent({
     components: {
@@ -57,7 +65,9 @@ export default defineComponent({
         Intro,
         HighlightFirst,
         Pricing,
-        LongFeature
+        LongFeature,
+        GetStarted,
+        Foot
     },
 
     props: {
