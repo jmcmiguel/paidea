@@ -149,6 +149,8 @@ export default {
   left: 50%;
   transform: translate(-50%, -50%);
   width: 100vw;
+  padding-left: 10rem;
+  padding-right: 10rem;
   z-index: 100;
 }
 
