@@ -17,11 +17,11 @@
                 </p>
 
                 <div class="flex pt-20 text-[#ffa500] space-x-4">
-                    <i class="text-[5rem]" data-feather="facebook"></i>
-                    <i class="material-icons">whatsapp</i>
-                    <i data-feather="instagram"></i>
-                    <i data-feather="twitter"></i>
-                    <i data-feather="youtube"></i>
+                    <i class="material-icons h-12 w-12 !text-[2.75rem]" >whatsapp</i>
+                    <i class="h-12 w-12" data-feather="instagram"></i>
+                    <i class="h-12 w-12" data-feather="facebook"></i>
+                    <i class="h-12 w-12" data-feather="twitter"></i>
+                    <i class="h-12 w-12" data-feather="youtube"></i>
                 </div>
              </div>
 
@@ -91,6 +91,13 @@
                 </a>
                 <a href="#" class="my-3 block text-[#444444] hover:text-gray-100 text-sm font-medium duration-700">
                     Browse Curriculum
+                </a>
+                
+                <a href="#" class="my-3 block text-[#ffa500] pt-28 hover:text-gray-100 text-sm font-medium duration-700">
+                    Terms of Service | Privacy Policy
+                </a>
+                <a href="#" class="my-3 block text-[#ffa500] hover:text-gray-100 text-sm font-medium duration-700">
+                    Ⓒ2021 Online Paideia
                 </a>
             </div>
         </div>

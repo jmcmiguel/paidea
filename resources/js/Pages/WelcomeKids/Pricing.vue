@@ -1,5 +1,5 @@
 <template>
-    <div class="w-full mx-auto bg-white px-5 py-20 text-gray-600 bg-[url('/img/patterns3.png')] bg-contain">
+    <div class="w-full mx-auto bg-white px-5 py-20 text-gray-600 bg-[url('/img/patterns3.png')] bg-contain shadow-2xl drop-shadow-2xl">
         <div class="text-center max-w-xl mx-auto">
             <h1 class="text-5xl md:text-6xl font-bold mb-3 text-white">Choose Your Plan</h1>
             <h3 class="text-md font-semibold mb-10 text-white">Don't worry you can cancel anytime. No risk, no hassle!</h3>
