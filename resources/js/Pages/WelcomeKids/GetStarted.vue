@@ -27,7 +27,7 @@
     <div class="lg:-mt-[12rem] xl:-mt-0 bg-[#ff7b2b] pb-[30vh] pt-52 lg:pt-64 xl:pt-64 overflow-hidden">
 
         <div ref="items" class="items relative top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] select-none">
-            <div class="item prev absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] w-40 h-40 md:w-48 md:h-48 lg:w-64 lg:h-64 rounded-[50%] overflow-hidden z-[-1] opacity-0 transition-all ease-in-out duration-300">
+            <div class="item prev invisible md:visible absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] w-40 h-40 md:w-48 md:h-48 lg:w-64 lg:h-64 rounded-[50%] overflow-hidden z-[-1] opacity-0 transition-all ease-in-out duration-300">
                 <img src="/img/child3.jpg" class="h-full w-full object-cover">
             </div>
 		
@@ -35,7 +35,7 @@
                 <img src="/img/child1.jpg" class="h-full w-full object-cover">
             </div>
 
-            <div class="item next absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] w-40 h-40 md:w-48 md:h-48 lg:w-64 lg:h-64 rounded-[50%] overflow-hidden z-[-1] opacity-0 transition-all ease-in-out duration-300">
+            <div class="item next invisible md:visible absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] w-40 h-40 md:w-48 md:h-48 lg:w-64 lg:h-64 rounded-[50%] overflow-hidden z-[-1] opacity-0 transition-all ease-in-out duration-300">
                 <img src="/img/child2.jpg" class="h-full w-full object-cover">
             </div>
 		
@@ -63,13 +63,13 @@ export default {
             const update = () => {
                 slides.forEach(it => {
                     it.classList.remove("active");
-                    it.classList.remove("prev");
-                    it.classList.remove("next");
+                    it.classList.remove("prev", "invisible", "md:visible");
+                    it.classList.remove("next", "invisible", "md:visible");
                 });
                 
                 slides[current].classList.add("active");
-                slides[prev].classList.add("prev sm:hidden");
-                slides[next].classList.add("next sm:hidden");
+                slides[prev].classList.add("prev", "invisible", "md:visible");
+                slides[next].classList.add("next", "invisible", "md:visible");
             }
 
             for (let i = 0; i < button.length; i++) {
@@ -81,9 +81,11 @@ export default {
 
             const gotoNum = number => {
                 current = number;
-                    prev = current > 0 ? current - 1 : slides.length - 1;
+                prev = current > 0 ? current - 1 : slides.length - 1;
                 next = current < slides.length - 1 ? current + 1 : 0;
                 
+                console.log('current slide:', current)
+
                 update();
             }
 
