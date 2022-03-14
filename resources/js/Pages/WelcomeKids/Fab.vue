@@ -81,6 +81,7 @@ export default {
 	color: white
 	font-size: 2em
 	box-shadow: 0px 3px 10px rgba(0,0,0,.16), 0px 3px 10px rgba(0,0,0,.16)
+	z-index: 10000
 
 .fab i
 	transition: all 300ms ease-in-out

@@ -6,7 +6,7 @@
 
             <p class="text-white text-center tracking-wide text-lg mt-6"> Improve your child’s academic performance by learning <br /> techniques & strategies from our Expert Tutors.</p>
         
-            <button class="flex min-w-fit mt-6 p-5 text-3xl bg-yellow-1000 font-bold text-gray-100 rounded-lg border-yellow-1000 hover:animate-bounce">Start Learning</button>
+            <button class="flex min-w-fit mt-6 p-5 text-3xl bg-yellow-1000 font-bold text-gray-100 rounded-lg border-yellow-1000 transition-all ease-in-out hover:animate-bounce">Start Learning</button>
         </div>
     </div>
 </template>
