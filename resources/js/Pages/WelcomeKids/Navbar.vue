@@ -66,8 +66,8 @@
             <div class="pt-2 pb-3 border-t border-gray-200">
                 <div>
                     <!-- Sign Up -->
-                    <form method="POST">
-                        <jet-responsive-nav-link as="button">
+                    <form>
+                        <jet-responsive-nav-link :href="route('register')">
                             Sign up
                         </jet-responsive-nav-link>
                     </form>

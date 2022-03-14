@@ -5,7 +5,7 @@
             <div class="p-5 w-1/2 sm:w-4/12 md:w-3/12">
                 <!-- Col Title -->
                 <div class="">
-                    <img src="/img/logo-yellow.png" class="h-52 w-52">
+                    <img src="/img/logo-yellow.png" class="h-52 w-52 max-h-52 max-w-52">
                 </div>
 
                 <!-- Links -->
@@ -17,7 +17,7 @@
                 </p>
 
                 <div class="flex pt-20 text-[#ffa500] space-x-4">
-                    <i class="material-icons h-12 w-12 !text-[2.75rem]" >whatsapp</i>
+                    <i class="material-icons h-12 w-12 pt-1.5 !text-[2.25rem] align-bottom" >whatsapp</i>
                     <i class="h-12 w-12" data-feather="instagram"></i>
                     <i class="h-12 w-12" data-feather="facebook"></i>
                     <i class="h-12 w-12" data-feather="twitter"></i>
