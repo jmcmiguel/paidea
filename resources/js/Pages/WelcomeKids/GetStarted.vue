@@ -1,5 +1,5 @@
 <template>
-    <div class="lg:bg-[url('/img/bg-1.png')] lg:min-h-screen bg-contain bg-no-repeat bg-right-bottom">
+    <div class="lg:bg-[url('/img/bg-1.png')] lg:min-h-screen bg-contain 2xl:bg-cover bg-no-repeat bg-right-bottom">
         <h1 class="text-center lg:text-left text-[#06648e] text-7xl lg:text-5xl xl:text-7xl font-bold pt-32 pl-0 lg:pl-3 xl:pl-20">How To Get <span class="text-[#ff6500]">Started</span>?</h1>
 
         <div class="pl-[5vw] lg:pl-3 xl:pl-20 pt-20 lg:pt-12 xl:pt-20 pb-12 lg:pb-0 flex flex-col drop-shadow-2xl space-y-[-2rem]">
@@ -18,13 +18,13 @@
         </div>
     </div>
 
-    <div class="lg:bg-[url('/img/bg-2.png')] bg-[#ff7b2b] lg:min-h-screen bg-contain bg-no-repeat bg-right-top">
+    <div class="lg:bg-[url('/img/bg-2.png')] bg-[#ff7b2b] lg:min-h-screen bg-contain 2xl:bg-cover bg-no-repeat bg-right-top ">
         <h1 class="text-white pt-20 lg:pt-[20rem] xl:pt-[30rem] 2xl:pt-[50rem] text-center font-bold text-6xl">Be featured, be proud!</h1>
         <p class="text-white text-center pt-6 text-xl">Achievements are the best part of success. <br> Be part of us and showcase your skill.</p>
         <button class="flex mx-auto mt-6 p-5 text-3xl bg-[#06648e] font-bold text-gray-100 rounded-lg border-yellow-1000 hover:animate-bounce">Join For Free</button>
     </div>
 
-    <div class="lg:-mt-[12rem] xl:-mt-0 bg-[#ff7b2b] pb-[30vh] pt-52 lg:pt-44 overflow-hidden">
+    <div class="lg:-mt-[12rem] xl:-mt-0 bg-[#ff7b2b] pb-[30vh] pt-52 xl:pt-64 2xl:pt-64 lg:pt-44 overflow-hidden">
 
         <div ref="items" class="items relative top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] select-none">
             <div class="item prev invisible md:visible absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] w-40 h-40 md:w-48 md:h-48 lg:w-64 lg:h-64 rounded-[50%] overflow-hidden z-[-1] opacity-0 transition-all ease-in-out duration-300">

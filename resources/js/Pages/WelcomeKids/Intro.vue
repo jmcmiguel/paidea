@@ -1,7 +1,7 @@
 <template>
 
     <!-- Blob Background & Container -->
-    <div class="grid min-w-screen bg-right-top xl:min-h-screen bg-no-repeat bg-contain bg-[#f5f5f5] lg:bg-[url('/img/intro-bg.png')]">
+    <div class="grid min-w-screen bg-right-top xl:min-h-screen bg-no-repeat bg-contain bg-[#f5f5f5] lg:bg-[url('/img/intro-bg-updated.jpg')]">
 
         <!-- Kid Image -->
         <!-- <img src="/img/kid-girl.svg" class="animate-wave delay-700 justify-self-end invisible lg:visible xl:h-99 2xl:h-110 xl:mr-32 xl:mt-32 2xl:mr-52 2xl:mt-12"/> -->
