@@ -24,7 +24,7 @@
         <button class="flex mx-auto mt-6 p-5 text-3xl bg-[#06648e] font-bold text-gray-100 rounded-lg border-yellow-1000 hover:animate-bounce">Join For Free</button>
     </div>
 
-    <div class="lg:-mt-[12rem] xl:-mt-0 bg-[#F78002] pb-[30vh] pt-52 xl:pt-64 2xl:pt-64 lg:pt-44 overflow-hidden">
+    <div class="lg:-mt-[12rem] xl:-mt-0 bg-[url('/img/bg-3.png')] bg-cover pb-[30vh] pt-52 xl:pt-64 2xl:pt-64 lg:pt-44 overflow-hidden">
 
         <div ref="items" class="items relative top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] select-none">
             <div class="item prev invisible md:visible absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] w-40 h-40 md:w-48 md:h-48 lg:w-64 lg:h-64 rounded-[50%] overflow-hidden z-[-1] opacity-0 transition-all ease-in-out duration-300">
