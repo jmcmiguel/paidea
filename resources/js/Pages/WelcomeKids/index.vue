@@ -1,5 +1,9 @@
 <template>
-    <Head title="Welcome" />
+    <Head>
+        <title>Welcome</title>
+        <meta head-key="intro" name="Online Paideia" content="Online Paideia is an online tutoring website">
+        <link rel="icon" type="image/png" href="/img/plainlogo-yellow.png" />
+    </Head>
 
     <!-- <div v-if="canLogin" class="hidden fixed top-0 right-0 px-6 py-4 sm:block">
             <Link v-if="$page.props.user" :href="route('dashboard')" class="text-sm text-gray-700 underline">
